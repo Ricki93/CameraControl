@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="0px">
+
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_marginTop="20px"
+            android:text="Wifi camera setup"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="50px"
+            android:layout_weight="2"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="4"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtViewConfiguredDeviceWiFi"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:text="No configured device" />
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="Placeholder for checked/not checked"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnConfigreWifi"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="2"
+            android:text="Configure" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20px"
+            android:text="Bluetooth gimbal setup"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="50px"
+            android:layout_weight="2"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="4"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtViewConfiguredDeviceBlueTooth"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:text="No configured device" />
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="Placeholder for checked/not checked"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnConfigureBluetooth"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="2"
+            android:text="Configure" />
+        </LinearLayout>
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0px">
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@android:color/darker_gray"
+            android:enabled="false"
+            android:text="start"
+            android:textAllCaps="true" />
+    </RelativeLayout>
+
+
+</LinearLayout>
